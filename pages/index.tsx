@@ -5,21 +5,21 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.laconic.com/">Laconic!</a>
+          Coming Soon!
         </h1>
 
         <div className={styles.grid}>
 
         <p className={styles.card}>
-          CONFIG1 has value: {process.env.CERC_TEST_WEBAPP_CONFIG1}
+          Easily deploy webapps
         </p>
 
         <p className={styles.card}>
-          CONFIG2 has value: {process.env.CERC_TEST_WEBAPP_CONFIG2}
+          Get a Laconic Address <a href="https://wallet.laconic.com/">here</a>
         </p>
 
         <p className={styles.card}>
-          WEBAPP_DEBUG has value: {process.env.CERC_WEBAPP_DEBUG}
+          Purchase pre-paid service <a href="https://buy.laconic.com/">here</a>
         </p>
 
         </div>
